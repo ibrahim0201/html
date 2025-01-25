@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #70d9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hero {
+    text-align: center;
+    background: url('bgmi-hero.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: rgb(0, 0, 0);
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #d000ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 1.2em;
+}
+
+/* About Page */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Contact Us Page */
+.contact {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: #5742f7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.deals {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.deal-item {
+    margin-bottom: 30px;
+}
+
+.deal-item h2 {
+    font-size: 2em;
+    color: #ff6600;
+}
+
+.deal-item p {
+    font-size: 1.2em;
+}
+.features{
+    text-align: center;
+}
+.register{
+    text-align: center;
+}
